@@ -1,5 +1,6 @@
 # vmap
 faster golang map 
+this implementation is to speed-up look-up operations in maps of the type map[string]string.
 
 bench mark tests:
   + BenchmarkVmap-12        42433309                27.82 ns/op
