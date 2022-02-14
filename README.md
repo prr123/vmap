@@ -1,0 +1,2 @@
+# vmap
+faster golang map 
