@@ -3,9 +3,11 @@ faster golang map:
 
 This implementation is to speed-up look-up operations in maps of the type map[string]string.
 
-bench mark tests:
+bench mark tests (key in map):
   + BenchmarkVmap-12 .......42433309....   27.82 ns/op
   + BenchmarkGoMap-12 ....28941366....   42.53 ns/op
+
+bench mark tests (key not in map):
   + BenchmarkVmapNH-12 .79078124....   18.53 ns/op
   + BenchmarkGoMapNH-12 54449022....   27.59 ns/op
 
