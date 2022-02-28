@@ -1,5 +1,5 @@
 # vmap
-faster golang map:    
+alternative to golang map using hash:    
 
 This implementation is to speed-up look-up operations in maps of the type map[string]string.
 
